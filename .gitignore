@@ -1,0 +1,14 @@
+.DS_Store
+Thumbs.db
+
+.idea/
+.vscode/
+
+*.log
+*.swp
+*.swo
+*.tmp
+
+node_modules/
+dist/
+coverage/

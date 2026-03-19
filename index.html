@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CityShape | Guess the city from its shape</title>
+    <meta
+      name="description"
+      content="Every day, I send you the evolving shape of a city on Telegram or WhatsApp. You try to guess which city it is, and I guide you with hints in an interactive game."
+    />
+    <meta name="theme-color" content="#efe4cf" />
+    <meta property="og:title" content="CityShape" />
+    <meta
+      property="og:description"
+      content="Every day, I send you the evolving shape of a city on Telegram or WhatsApp. Guess the city and get hints in an interactive game."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./assets/featured-poster.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero">
+        <h1>Guess the city from its shape.</h1>
+        <p class="intro">
+          Every day, I send you the evolving shape of a city on Telegram or
+          WhatsApp. You try to guess which city it is, and I guide you with
+          hints in an interactive game.
+        </p>
+        <div class="button-row hero-buttons">
+          <a
+            class="button button-primary"
+            href="https://wa.me/41772880718?text=I%20want%20to%20play%20CityShape"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            WhatsApp
+          </a>
+          <a
+            class="button button-secondary"
+            href="https://t.me/CityShapeBot"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Telegram
+          </a>
+        </div>
+      </section>
+
+      <section class="puzzle-section" id="puzzle">
+        <video
+          class="featured-video"
+          poster="./assets/featured-poster.png"
+          autoplay
+          muted
+          loop
+          playsinline
+          controls
+          preload="metadata"
+        >
+          <source src="./assets/featured-puzzle.mp4" type="video/mp4" />
+          Your browser does not support embedded video.
+        </video>
+      </section>
+    </main>
+  </body>
+</html>
