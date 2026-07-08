@@ -1,0 +1,956 @@
+{
+  "version": "citysim-browser-handoff-v1",
+  "slug": "dhaka",
+  "displayName": "Dhaka",
+  "years": [
+    1975,
+    1980,
+    1985,
+    1990,
+    1995,
+    2000,
+    2005,
+    2010,
+    2015,
+    2020,
+    2025,
+    2030,
+    2035,
+    2040,
+    2045,
+    2050,
+    2055,
+    2060,
+    2065,
+    2070,
+    2075,
+    2080,
+    2085,
+    2090,
+    2095,
+    2100
+  ],
+  "skippedYears": [],
+  "scene": {
+    "renderCrs": "EPSG:32646",
+    "rasterCrs": "ESRI:54009",
+    "renderBounds": [
+      174571.2,
+      2485456.3,
+      409571.2,
+      2730456.3
+    ],
+    "renderUnits": "km"
+  },
+  "terrain": {
+    "textureUrl": "terrain-shaded-relief.png",
+    "heightmapUrl": "terrain-heightmap.png",
+    "width": 640,
+    "height": 667,
+    "waterMaskUrl": "arrays/terrain-water-mask.u8",
+    "waterDepthKm": -0.30000001192092896,
+    "heightmapMinKm": -0.30000001192092896,
+    "heightmapMaxKm": 1.8818613290786743
+  },
+  "cells": {
+    "count": 41383,
+    "widthKm": 1.0,
+    "xKmUrl": "arrays/cell-x-km.f32",
+    "zKmUrl": "arrays/cell-z-km.f32",
+    "baseKmUrl": "arrays/cell-base-km.f32"
+  },
+  "frames": [
+    {
+      "year": 1975,
+      "activeUrl": "arrays/active-1975.u8",
+      "heightUrl": "arrays/height-1975.f32",
+      "stats": {
+        "year": 1975,
+        "status": "ok",
+        "urban_threshold": 21,
+        "urban_cell_count": 17142,
+        "urban_area_km2": 17142.0,
+        "urban_population": 28827415.784440875,
+        "bbox_population": 42496376.0,
+        "max_cell_pop": 138740.5625,
+        "height_reference_pop": 224080.78125,
+        "notes": ""
+      },
+      "classUrl": "arrays/class-1975.u8",
+      "classStats": {
+        "suburban": {
+          "cellCount": 13219,
+          "population": 9569657.76034069
+        },
+        "urban": {
+          "cellCount": 2669,
+          "population": 7955752.919007301
+        },
+        "core": {
+          "cellCount": 1254,
+          "population": 11302005.105092883
+        }
+      },
+      "footprintUrl": "footprints/urban-1975.geojson"
+    },
+    {
+      "year": 1980,
+      "activeUrl": "arrays/active-1980.u8",
+      "heightUrl": "arrays/height-1980.f32",
+      "stats": {
+        "year": 1980,
+        "status": "ok",
+        "urban_threshold": 21,
+        "urban_cell_count": 21261,
+        "urban_area_km2": 21261.0,
+        "urban_population": 33922582.22387993,
+        "bbox_population": 48426400.0,
+        "max_cell_pop": 137727.765625,
+        "height_reference_pop": 224080.78125,
+        "notes": ""
+      },
+      "classUrl": "arrays/class-1980.u8",
+      "classStats": {
+        "suburban": {
+          "cellCount": 16484,
+          "population": 11940646.40343213
+        },
+        "urban": {
+          "cellCount": 3237,
+          "population": 8955064.091161728
+        },
+        "core": {
+          "cellCount": 1540,
+          "population": 13026871.729286075
+        }
+      },
+      "footprintUrl": "footprints/urban-1980.geojson"
+    },
+    {
+      "year": 1985,
+      "activeUrl": "arrays/active-1985.u8",
+      "heightUrl": "arrays/height-1985.f32",
+      "stats": {
+        "year": 1985,
+        "status": "ok",
+        "urban_threshold": 21,
+        "urban_cell_count": 25244,
+        "urban_area_km2": 25244.0,
+        "urban_population": 40375287.015738964,
+        "bbox_population": 55621236.0,
+        "max_cell_pop": 134218.03125,
+        "height_reference_pop": 224080.78125,
+        "notes": ""
+      },
+      "classUrl": "arrays/class-1985.u8",
+      "classStats": {
+        "suburban": {
+          "cellCount": 19106,
+          "population": 14336554.78279519
+        },
+        "urban": {
+          "cellCount": 4063,
+          "population": 10260664.535614014
+        },
+        "core": {
+          "cellCount": 2075,
+          "population": 15778067.69732976
+        }
+      },
+      "footprintUrl": "footprints/urban-1985.geojson"
+    },
+    {
+      "year": 1990,
+      "activeUrl": "arrays/active-1990.u8",
+      "heightUrl": "arrays/height-1990.f32",
+      "stats": {
+        "year": 1990,
+        "status": "ok",
+        "urban_threshold": 21,
+        "urban_cell_count": 27805,
+        "urban_area_km2": 27805.0,
+        "urban_population": 46791792.15798783,
+        "bbox_population": 62699144.0,
+        "max_cell_pop": 126547.71875,
+        "height_reference_pop": 224080.78125,
+        "notes": ""
+      },
+      "classUrl": "arrays/class-1990.u8",
+      "classStats": {
+        "suburban": {
+          "cellCount": 20341,
+          "population": 16055064.178890109
+        },
+        "urban": {
+          "cellCount": 4474,
+          "population": 10971078.886405945
+        },
+        "core": {
+          "cellCount": 2990,
+          "population": 19765649.09269178
+        }
+      },
+      "footprintUrl": "footprints/urban-1990.geojson"
+    },
+    {
+      "year": 1995,
+      "activeUrl": "arrays/active-1995.u8",
+      "heightUrl": "arrays/height-1995.f32",
+      "stats": {
+        "year": 1995,
+        "status": "ok",
+        "urban_threshold": 21,
+        "urban_cell_count": 29089,
+        "urban_area_km2": 29089.0,
+        "urban_population": 52665985.434412,
+        "bbox_population": 69373776.0,
+        "max_cell_pop": 139007.671875,
+        "height_reference_pop": 224080.78125,
+        "notes": ""
+      },
+      "classUrl": "arrays/class-1995.u8",
+      "classStats": {
+        "suburban": {
+          "cellCount": 20687,
+          "population": 16659718.88788414
+        },
+        "urban": {
+          "cellCount": 4687,
+          "population": 11565821.873631477
+        },
+        "core": {
+          "cellCount": 3715,
+          "population": 24440444.672896385
+        }
+      },
+      "footprintUrl": "footprints/urban-1995.geojson"
+    },
+    {
+      "year": 2000,
+      "activeUrl": "arrays/active-2000.u8",
+      "heightUrl": "arrays/height-2000.f32",
+      "stats": {
+        "year": 2000,
+        "status": "ok",
+        "urban_threshold": 21,
+        "urban_cell_count": 30411,
+        "urban_area_km2": 30411.0,
+        "urban_population": 58958389.55676651,
+        "bbox_population": 76493808.0,
+        "max_cell_pop": 146765.0625,
+        "height_reference_pop": 224080.78125,
+        "notes": ""
+      },
+      "classUrl": "arrays/class-2000.u8",
+      "classStats": {
+        "suburban": {
+          "cellCount": 20901,
+          "population": 17188145.796629906
+        },
+        "urban": {
+          "cellCount": 4597,
+          "population": 11379427.023252487
+        },
+        "core": {
+          "cellCount": 4913,
+          "population": 30390816.736884117
+        }
+      },
+      "footprintUrl": "footprints/urban-2000.geojson"
+    },
+    {
+      "year": 2005,
+      "activeUrl": "arrays/active-2005.u8",
+      "heightUrl": "arrays/height-2005.f32",
+      "stats": {
+        "year": 2005,
+        "status": "ok",
+        "urban_threshold": 21,
+        "urban_cell_count": 31939,
+        "urban_area_km2": 31939.0,
+        "urban_population": 64527041.42095685,
+        "bbox_population": 82625632.0,
+        "max_cell_pop": 141985.515625,
+        "height_reference_pop": 224080.78125,
+        "notes": ""
+      },
+      "classUrl": "arrays/class-2005.u8",
+      "classStats": {
+        "suburban": {
+          "cellCount": 21261,
+          "population": 17580428.853479028
+        },
+        "urban": {
+          "cellCount": 4653,
+          "population": 11292763.860509872
+        },
+        "core": {
+          "cellCount": 6025,
+          "population": 35653848.70696795
+        }
+      },
+      "footprintUrl": "footprints/urban-2005.geojson"
+    },
+    {
+      "year": 2010,
+      "activeUrl": "arrays/active-2010.u8",
+      "heightUrl": "arrays/height-2010.f32",
+      "stats": {
+        "year": 2010,
+        "status": "ok",
+        "urban_threshold": 21,
+        "urban_cell_count": 33858,
+        "urban_area_km2": 33858.0,
+        "urban_population": 69441820.1172843,
+        "bbox_population": 87616824.0,
+        "max_cell_pop": 157299.75,
+        "height_reference_pop": 224080.78125,
+        "notes": ""
+      },
+      "classUrl": "arrays/class-2010.u8",
+      "classStats": {
+        "suburban": {
+          "cellCount": 22140,
+          "population": 18116857.57663548
+        },
+        "urban": {
+          "cellCount": 4706,
+          "population": 10955235.710575104
+        },
+        "core": {
+          "cellCount": 7012,
+          "population": 40369726.830073714
+        }
+      },
+      "footprintUrl": "footprints/urban-2010.geojson"
+    },
+    {
+      "year": 2015,
+      "activeUrl": "arrays/active-2015.u8",
+      "heightUrl": "arrays/height-2015.f32",
+      "stats": {
+        "year": 2015,
+        "status": "ok",
+        "urban_threshold": 21,
+        "urban_cell_count": 35654,
+        "urban_area_km2": 35654.0,
+        "urban_population": 74539128.75871038,
+        "bbox_population": 92675968.0,
+        "max_cell_pop": 182743.671875,
+        "height_reference_pop": 224080.78125,
+        "notes": ""
+      },
+      "classUrl": "arrays/class-2015.u8",
+      "classStats": {
+        "suburban": {
+          "cellCount": 22593,
+          "population": 18569020.99916315
+        },
+        "urban": {
+          "cellCount": 4682,
+          "population": 10525861.468185425
+        },
+        "core": {
+          "cellCount": 8379,
+          "population": 45444246.29136181
+        }
+      },
+      "footprintUrl": "footprints/urban-2015.geojson"
+    },
+    {
+      "year": 2020,
+      "activeUrl": "arrays/active-2020.u8",
+      "heightUrl": "arrays/height-2020.f32",
+      "stats": {
+        "year": 2020,
+        "status": "ok",
+        "urban_threshold": 21,
+        "urban_cell_count": 37500,
+        "urban_area_km2": 37500.0,
+        "urban_population": 79917950.44690955,
+        "bbox_population": 97935680.0,
+        "max_cell_pop": 209524.515625,
+        "height_reference_pop": 224080.78125,
+        "notes": ""
+      },
+      "classUrl": "arrays/class-2020.u8",
+      "classStats": {
+        "suburban": {
+          "cellCount": 22158,
+          "population": 18509298.400316477
+        },
+        "urban": {
+          "cellCount": 4730,
+          "population": 10040434.16916418
+        },
+        "core": {
+          "cellCount": 10612,
+          "population": 51368217.87742889
+        }
+      },
+      "footprintUrl": "footprints/urban-2020.geojson"
+    },
+    {
+      "year": 2025,
+      "activeUrl": "arrays/active-2025.u8",
+      "heightUrl": "arrays/height-2025.f32",
+      "stats": {
+        "year": 2025,
+        "status": "ok",
+        "urban_threshold": 21,
+        "urban_cell_count": 38137,
+        "urban_area_km2": 38137.0,
+        "urban_population": 86183747.74966961,
+        "bbox_population": 104629648.0,
+        "max_cell_pop": 211287.234375,
+        "height_reference_pop": 224080.78125,
+        "notes": ""
+      },
+      "classUrl": "arrays/class-2025.u8",
+      "classStats": {
+        "suburban": {
+          "cellCount": 20696,
+          "population": 17226049.83970499
+        },
+        "urban": {
+          "cellCount": 4475,
+          "population": 9669275.70597148
+        },
+        "core": {
+          "cellCount": 12966,
+          "population": 59288422.20399314
+        }
+      },
+      "footprintUrl": "footprints/urban-2025.geojson"
+    },
+    {
+      "year": 2030,
+      "activeUrl": "arrays/active-2030.u8",
+      "heightUrl": "arrays/height-2030.f32",
+      "stats": {
+        "year": 2030,
+        "status": "ok",
+        "urban_threshold": 21,
+        "urban_cell_count": 38754,
+        "urban_area_km2": 38754.0,
+        "urban_population": 92929678.28816438,
+        "bbox_population": 111881184.0,
+        "max_cell_pop": 214248.515625,
+        "height_reference_pop": 224080.78125,
+        "notes": ""
+      },
+      "classUrl": "arrays/class-2030.u8",
+      "classStats": {
+        "suburban": {
+          "cellCount": 19194,
+          "population": 15875621.8159585
+        },
+        "urban": {
+          "cellCount": 4186,
+          "population": 9147985.729422092
+        },
+        "core": {
+          "cellCount": 15374,
+          "population": 67906070.74278378
+        }
+      },
+      "footprintUrl": "footprints/urban-2030.geojson"
+    },
+    {
+      "year": 2035,
+      "activeUrl": "arrays/active-2035.u8",
+      "heightUrl": "arrays/height-2035.f32",
+      "stats": {
+        "year": 2035,
+        "status": "ok",
+        "urban_threshold": 21,
+        "urban_cell_count": 39241,
+        "urban_area_km2": 39241.0,
+        "urban_population": 99239346.1104865,
+        "bbox_population": 118510448.0,
+        "max_cell_pop": 218128.921875,
+        "height_reference_pop": 224080.78125,
+        "notes": ""
+      },
+      "classUrl": "arrays/class-2035.u8",
+      "classStats": {
+        "suburban": {
+          "cellCount": 17868,
+          "population": 14588042.909276009
+        },
+        "urban": {
+          "cellCount": 3788,
+          "population": 8361391.637729645
+        },
+        "core": {
+          "cellCount": 17585,
+          "population": 76289911.56348085
+        }
+      },
+      "footprintUrl": "footprints/urban-2035.geojson"
+    },
+    {
+      "year": 2040,
+      "activeUrl": "arrays/active-2040.u8",
+      "heightUrl": "arrays/height-2040.f32",
+      "stats": {
+        "year": 2040,
+        "status": "ok",
+        "urban_threshold": 21,
+        "urban_cell_count": 39607,
+        "urban_area_km2": 39607.0,
+        "urban_population": 104711905.50334263,
+        "bbox_population": 124182816.0,
+        "max_cell_pop": 220221.96875,
+        "height_reference_pop": 224080.78125,
+        "notes": ""
+      },
+      "classUrl": "arrays/class-2040.u8",
+      "classStats": {
+        "suburban": {
+          "cellCount": 16700,
+          "population": 13435597.009177685
+        },
+        "urban": {
+          "cellCount": 3619,
+          "population": 7984521.976230621
+        },
+        "core": {
+          "cellCount": 19288,
+          "population": 83291786.51793432
+        }
+      },
+      "footprintUrl": "footprints/urban-2040.geojson"
+    },
+    {
+      "year": 2045,
+      "activeUrl": "arrays/active-2045.u8",
+      "heightUrl": "arrays/height-2045.f32",
+      "stats": {
+        "year": 2045,
+        "status": "ok",
+        "urban_threshold": 21,
+        "urban_cell_count": 39786,
+        "urban_area_km2": 39786.0,
+        "urban_population": 109688289.56745768,
+        "bbox_population": 129268176.0,
+        "max_cell_pop": 222396.984375,
+        "height_reference_pop": 224080.78125,
+        "notes": ""
+      },
+      "classUrl": "arrays/class-2045.u8",
+      "classStats": {
+        "suburban": {
+          "cellCount": 15852,
+          "population": 12621653.338365078
+        },
+        "urban": {
+          "cellCount": 3453,
+          "population": 7649429.0569906235
+        },
+        "core": {
+          "cellCount": 20481,
+          "population": 89417207.17210197
+        }
+      },
+      "footprintUrl": "footprints/urban-2045.geojson"
+    },
+    {
+      "year": 2050,
+      "activeUrl": "arrays/active-2050.u8",
+      "heightUrl": "arrays/height-2050.f32",
+      "stats": {
+        "year": 2050,
+        "status": "ok",
+        "urban_threshold": 21,
+        "urban_cell_count": 39962,
+        "urban_area_km2": 39962.0,
+        "urban_population": 114253699.07026243,
+        "bbox_population": 133866040.0,
+        "max_cell_pop": 223762.6875,
+        "height_reference_pop": 224080.78125,
+        "notes": ""
+      },
+      "classUrl": "arrays/class-2050.u8",
+      "classStats": {
+        "suburban": {
+          "cellCount": 15141,
+          "population": 11826067.025670052
+        },
+        "urban": {
+          "cellCount": 3221,
+          "population": 7206028.592949867
+        },
+        "core": {
+          "cellCount": 21600,
+          "population": 95221603.45164251
+        }
+      },
+      "footprintUrl": "footprints/urban-2050.geojson"
+    },
+    {
+      "year": 2055,
+      "activeUrl": "arrays/active-2055.u8",
+      "heightUrl": "arrays/height-2055.f32",
+      "stats": {
+        "year": 2055,
+        "status": "ok",
+        "urban_threshold": 21,
+        "urban_cell_count": 40021,
+        "urban_area_km2": 40021.0,
+        "urban_population": 118266175.9026432,
+        "bbox_population": 137866352.0,
+        "max_cell_pop": 224080.78125,
+        "height_reference_pop": 224080.78125,
+        "notes": ""
+      },
+      "classUrl": "arrays/class-2055.u8",
+      "classStats": {
+        "suburban": {
+          "cellCount": 14562,
+          "population": 11287267.118125916
+        },
+        "urban": {
+          "cellCount": 3054,
+          "population": 6939630.2829351425
+        },
+        "core": {
+          "cellCount": 22405,
+          "population": 100039278.50158215
+        }
+      },
+      "footprintUrl": "footprints/urban-2055.geojson"
+    },
+    {
+      "year": 2060,
+      "activeUrl": "arrays/active-2060.u8",
+      "heightUrl": "arrays/height-2060.f32",
+      "stats": {
+        "year": 2060,
+        "status": "ok",
+        "urban_threshold": 21,
+        "urban_cell_count": 40047,
+        "urban_area_km2": 40047.0,
+        "urban_population": 121665162.66658211,
+        "bbox_population": 141155680.0,
+        "max_cell_pop": 223238.703125,
+        "height_reference_pop": 224080.78125,
+        "notes": ""
+      },
+      "classUrl": "arrays/class-2060.u8",
+      "classStats": {
+        "suburban": {
+          "cellCount": 14331,
+          "population": 11078186.710801125
+        },
+        "urban": {
+          "cellCount": 2947,
+          "population": 6803278.655428886
+        },
+        "core": {
+          "cellCount": 22769,
+          "population": 103783697.3003521
+        }
+      },
+      "footprintUrl": "footprints/urban-2060.geojson"
+    },
+    {
+      "year": 2065,
+      "activeUrl": "arrays/active-2065.u8",
+      "heightUrl": "arrays/height-2065.f32",
+      "stats": {
+        "year": 2065,
+        "status": "ok",
+        "urban_threshold": 21,
+        "urban_cell_count": 40026,
+        "urban_area_km2": 40026.0,
+        "urban_population": 124115736.25561905,
+        "bbox_population": 143437536.0,
+        "max_cell_pop": 222958.5625,
+        "height_reference_pop": 224080.78125,
+        "notes": ""
+      },
+      "classUrl": "arrays/class-2065.u8",
+      "classStats": {
+        "suburban": {
+          "cellCount": 14120,
+          "population": 10872637.833325863
+        },
+        "urban": {
+          "cellCount": 2920,
+          "population": 6798496.724458694
+        },
+        "core": {
+          "cellCount": 22986,
+          "population": 106444601.69783449
+        }
+      },
+      "footprintUrl": "footprints/urban-2065.geojson"
+    },
+    {
+      "year": 2070,
+      "activeUrl": "arrays/active-2070.u8",
+      "heightUrl": "arrays/height-2070.f32",
+      "stats": {
+        "year": 2070,
+        "status": "ok",
+        "urban_threshold": 21,
+        "urban_cell_count": 39997,
+        "urban_area_km2": 39997.0,
+        "urban_population": 125783012.92886543,
+        "bbox_population": 144820016.0,
+        "max_cell_pop": 221264.78125,
+        "height_reference_pop": 224080.78125,
+        "notes": ""
+      },
+      "classUrl": "arrays/class-2070.u8",
+      "classStats": {
+        "suburban": {
+          "cellCount": 13970,
+          "population": 10709036.199388504
+        },
+        "urban": {
+          "cellCount": 2801,
+          "population": 6581791.00869751
+        },
+        "core": {
+          "cellCount": 23226,
+          "population": 108492185.72077942
+        }
+      },
+      "footprintUrl": "footprints/urban-2070.geojson"
+    },
+    {
+      "year": 2075,
+      "activeUrl": "arrays/active-2075.u8",
+      "heightUrl": "arrays/height-2075.f32",
+      "stats": {
+        "year": 2075,
+        "status": "ok",
+        "urban_threshold": 21,
+        "urban_cell_count": 39889,
+        "urban_area_km2": 39889.0,
+        "urban_population": 126542196.02930403,
+        "bbox_population": 145271648.0,
+        "max_cell_pop": 220842.890625,
+        "height_reference_pop": 224080.78125,
+        "notes": ""
+      },
+      "classUrl": "arrays/class-2075.u8",
+      "classStats": {
+        "suburban": {
+          "cellCount": 13876,
+          "population": 10624426.808348179
+        },
+        "urban": {
+          "cellCount": 2740,
+          "population": 6454823.091885567
+        },
+        "core": {
+          "cellCount": 23273,
+          "population": 109462946.12907028
+        }
+      },
+      "footprintUrl": "footprints/urban-2075.geojson"
+    },
+    {
+      "year": 2080,
+      "activeUrl": "arrays/active-2080.u8",
+      "heightUrl": "arrays/height-2080.f32",
+      "stats": {
+        "year": 2080,
+        "status": "ok",
+        "urban_threshold": 21,
+        "urban_cell_count": 39714,
+        "urban_area_km2": 39714.0,
+        "urban_population": 126650346.33740568,
+        "bbox_population": 144991584.0,
+        "max_cell_pop": 219298.640625,
+        "height_reference_pop": 224080.78125,
+        "notes": ""
+      },
+      "classUrl": "arrays/class-2080.u8",
+      "classStats": {
+        "suburban": {
+          "cellCount": 13784,
+          "population": 10508225.909901142
+        },
+        "urban": {
+          "cellCount": 2739,
+          "population": 6392685.745103836
+        },
+        "core": {
+          "cellCount": 23191,
+          "population": 109749434.6824007
+        }
+      },
+      "footprintUrl": "footprints/urban-2080.geojson"
+    },
+    {
+      "year": 2085,
+      "activeUrl": "arrays/active-2085.u8",
+      "heightUrl": "arrays/height-2085.f32",
+      "stats": {
+        "year": 2085,
+        "status": "ok",
+        "urban_threshold": 21,
+        "urban_cell_count": 39528,
+        "urban_area_km2": 39528.0,
+        "urban_population": 125969227.43399954,
+        "bbox_population": 143914736.0,
+        "max_cell_pop": 218337.125,
+        "height_reference_pop": 224080.78125,
+        "notes": ""
+      },
+      "classUrl": "arrays/class-2085.u8",
+      "classStats": {
+        "suburban": {
+          "cellCount": 13789,
+          "population": 10497305.672074795
+        },
+        "urban": {
+          "cellCount": 2797,
+          "population": 6526389.206465721
+        },
+        "core": {
+          "cellCount": 22942,
+          "population": 108945532.55545902
+        }
+      },
+      "footprintUrl": "footprints/urban-2085.geojson"
+    },
+    {
+      "year": 2090,
+      "activeUrl": "arrays/active-2090.u8",
+      "heightUrl": "arrays/height-2090.f32",
+      "stats": {
+        "year": 2090,
+        "status": "ok",
+        "urban_threshold": 21,
+        "urban_cell_count": 39286,
+        "urban_area_km2": 39286.0,
+        "urban_population": 124744389.93780136,
+        "bbox_population": 142246112.0,
+        "max_cell_pop": 216458.3125,
+        "height_reference_pop": 224080.78125,
+        "notes": ""
+      },
+      "classUrl": "arrays/class-2090.u8",
+      "classStats": {
+        "suburban": {
+          "cellCount": 13826,
+          "population": 10522401.833153725
+        },
+        "urban": {
+          "cellCount": 2712,
+          "population": 6359413.794131279
+        },
+        "core": {
+          "cellCount": 22748,
+          "population": 107862574.31051636
+        }
+      },
+      "footprintUrl": "footprints/urban-2090.geojson"
+    },
+    {
+      "year": 2095,
+      "activeUrl": "arrays/active-2095.u8",
+      "heightUrl": "arrays/height-2095.f32",
+      "stats": {
+        "year": 2095,
+        "status": "ok",
+        "urban_threshold": 21,
+        "urban_cell_count": 39015,
+        "urban_area_km2": 39015.0,
+        "urban_population": 122730830.82070255,
+        "bbox_population": 139786656.0,
+        "max_cell_pop": 213127.078125,
+        "height_reference_pop": 224080.78125,
+        "notes": ""
+      },
+      "classUrl": "arrays/class-2095.u8",
+      "classStats": {
+        "suburban": {
+          "cellCount": 13884,
+          "population": 10565803.815197945
+        },
+        "urban": {
+          "cellCount": 2696,
+          "population": 6393466.302280426
+        },
+        "core": {
+          "cellCount": 22435,
+          "population": 105771560.70322418
+        }
+      },
+      "footprintUrl": "footprints/urban-2095.geojson"
+    },
+    {
+      "year": 2100,
+      "activeUrl": "arrays/active-2100.u8",
+      "heightUrl": "arrays/height-2100.f32",
+      "stats": {
+        "year": 2100,
+        "status": "ok",
+        "urban_threshold": 21,
+        "urban_cell_count": 38677,
+        "urban_area_km2": 38677.0,
+        "urban_population": 120348302.49249935,
+        "bbox_population": 136929152.0,
+        "max_cell_pop": 209166.390625,
+        "height_reference_pop": 224080.78125,
+        "notes": ""
+      },
+      "classUrl": "arrays/class-2100.u8",
+      "classStats": {
+        "suburban": {
+          "cellCount": 13920,
+          "population": 10603418.284831047
+        },
+        "urban": {
+          "cellCount": 2661,
+          "population": 6299104.719867706
+        },
+        "core": {
+          "cellCount": 22096,
+          "population": 103445779.4878006
+        }
+      },
+      "footprintUrl": "footprints/urban-2100.geojson"
+    }
+  ],
+  "urbanClasses": [
+    {
+      "id": 1,
+      "key": "suburban",
+      "label": "Suburban",
+      "degurbaCodes": [
+        21
+      ]
+    },
+    {
+      "id": 2,
+      "key": "urban",
+      "label": "Urban",
+      "degurbaCodes": [
+        22,
+        23
+      ]
+    },
+    {
+      "id": 3,
+      "key": "core",
+      "label": "Core",
+      "degurbaCodes": [
+        30
+      ]
+    }
+  ],
+  "places": [
+    {
+      "label": "Dhaka",
+      "xRender": 292071.2,
+      "yRender": 2607956.3
+    }
+  ]
+}
